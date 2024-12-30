@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/work-single/page.jsx", "app/work/page.jsx", "app/services/page.jsx", "app/pricing/page.jsx", "app/index-3/page.jsx", "app/index-2/page.jsx", "app/blog-list/page.jsx", "app/blog-details/page.jsx", "app/blog/page.jsx", "app/blog/[id]/page.jsx", "app/page.jsx", "app/layout.jsx", "components/layout/Menu.jsx", "components/layout/Layout.jsx", "components/layout/Breadcrumb.jsx", "components/layout/header/Header3.jsx", "components/layout/header/Header2.jsx", "components/layout/header/Header1.jsx", "components/layout/footer/Footer3.jsx", "components/layout/footer/Footer2.jsx", "components/layout/footer/Footer1.jsx", "components/elements/ThemeSwitch.jsx", "components/elements/Preloader.jsx", "components/elements/PortfolioFilter.jsx", "components/elements/ImageHoverEffects.jsx", "components/elements/DataBg.jsx", "components/elements/BackToTop.jsx", "components/elements/AddClassBody.jsx", "components/blog/Pagination.jsx", "components/blog/BlogPost.jsx", "components/blog/BlogCard3.jsx", "components/blog/BlogCard2.jsx", "components/blog/BlogCard1.jsx", "components/layout/OffCanvas.jsx", "components/layout/MobileMenu.jsx", "components/SvgIcons.jsx", "components/sections/Testimonials1.jsx", "components/sections/Static2.jsx", "components/sections/Static1.jsx", "components/sections/Skills2.jsx", "components/sections/Skills1.jsx", "components/sections/Service2.jsx", "components/sections/Service1.jsx", "components/sections/Resume1.jsx", "components/sections/Projects2.jsx", "components/sections/Projects1.jsx", "components/sections/Home2.jsx", "components/sections/Home1.jsx", "components/sections/Experience2.jsx", "components/sections/Education2.jsx", "components/sections/Coporation2.jsx", "components/sections/Contact2.jsx", "components/sections/Contact1.jsx", "components/sections/Brands1.jsx", "components/sections/Blog2.jsx", "components/sections/Blog1.jsx"],
+  "exclude": ["node_modules"]
+}
