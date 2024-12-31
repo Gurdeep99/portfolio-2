@@ -125,7 +125,7 @@ export default function Resume1() {
                 </div>
                 <div className="resume-card-body">
                  {data.items.experience.map((item, index) => (
-					 <div className="resume-card-item px-4 py-3 mt-5">
+					 <div className="resume-card-item px-4 py-3 mt-5" key={index}>
                     <p className="fw-extra-bold text-linear-1 mb-2">
 					  {item.year}
                     </p>
