@@ -42,7 +42,7 @@ export default function Resume1() {
           id: 1,
           year: "2023 - 2024",
           title: "Full Stack Developer",
-          employer: "Amarujala Web Services Pvt Ltd",
+          employer: "Edyyo Digital Solutions Pvt Ltd",
         },
         {
           id: 1,

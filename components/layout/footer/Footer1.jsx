@@ -9,7 +9,7 @@ export default function Footer1() {
 						<div className="text-center">
 							<Link className="d-flex main-logo align-items-center d-inline-flex" href="https://gurdeep.net">
 								<img src="/assets/imgs/footer-1/logo.svg" alt="infinia" />
-								<span className="fs-4 ms-2 text-white-keep">Gurdeep.net</span>
+								<span className="fs-4 ms-2 text-white-keep">PORTFOLIO</span>
 							</Link>
 							<div className="navigation d-none d-md-flex align-items-center justify-content-center flex-wrap gap-4 my-4">
 								<Link href="/" className="fs-5">

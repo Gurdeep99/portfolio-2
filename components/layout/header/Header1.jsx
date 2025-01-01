@@ -17,8 +17,14 @@ export default function Header1({
     social: [
       {
         id: 1,
-        icon: "ri-facebook-circle-fill",
+        icon: "ri-facebook-fill",
         link: "https://www.facebook.com",
+        name: "Facebook",
+      },
+      {
+        id: 2,
+        icon: "ri-twitter-fill",
+        link: "http://twitter.com",
         name: "Facebook",
       },
       {
